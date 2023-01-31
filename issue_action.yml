@@ -1,0 +1,8 @@
+name: issue notification
+on: 
+  issues:
+    types: [opened]
+
+jobs:
+  steps:
+    -name: action triggered
